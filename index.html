@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -36,7 +38,7 @@
               <p class="time-block">9am</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="nineSave">Save</button>
           </div>
       </div>
       <br>
@@ -46,7 +48,7 @@
               <p class="time-block">10am</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="tenSave">Save</button>
           </div>
       </div>
       <br>
@@ -56,7 +58,7 @@
               <p class="time-block">11am</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="elevenSave">Save</button>
           </div>
       </div>
       <br>
@@ -66,7 +68,7 @@
               <p class="time-block">12am</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="twelveSave">Save</button>
           </div>
       </div>
       <br>
@@ -76,7 +78,7 @@
               <p class="time-block">1pm</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="oneSave">Save</button>
           </div>
       </div>
       <br>
@@ -86,7 +88,7 @@
               <p class="time-block">2pm</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="twoSave">Save</button>
           </div>
       </div>
       <br>
@@ -96,7 +98,7 @@
               <p class="time-block">3pm</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="threeSave">Save</button>
           </div>
       </div>
       <br>
@@ -106,7 +108,7 @@
               <p class="time-block">4pm</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="fourSave">Save</button>
           </div>
       </div>
       <br>
@@ -116,12 +118,11 @@
               <p class="time-block">5pm</p>
             </div>
             <textarea class="form-control" aria-label="With textarea"></textarea>
-            <button class="input-group-append saveBtn">Save</button>
+            <button class="input-group-append saveBtn" id="fiveSave">Save</button>
           </div>
       </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
