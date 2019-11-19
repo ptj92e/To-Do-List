@@ -41,5 +41,7 @@ $("#currentDay").text(currentDate);
 //Setting up a function to save the content to the object. 
 function saveContent() {
     event.preventDefault();
-
+    let nineAmText = taNine.val();
+    toDoList.nineAm = nineAmText;
+    console.log(toDoList.nineAm);
 }
