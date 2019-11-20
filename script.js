@@ -19,12 +19,12 @@ function saveContent() {
 };
 
 //Set up variables for text areas
-let textNine = $("#textNine");
-let textTen = $("#textTen");
-let textEleven = $("#textEleven");
-let textTwelve = $("#textTwelve");
-let textOne = $("#textOne");
-let textTwo = $("#textTwo");
-let textThree = $("#textThree");
-let textFour = $("#textFour");
-let textFive = $("#textFive");
+let textNine = $("#9am").children(".row").children(".input-group").children("textarea");
+let textTen = $("#textTen").children(".row").children(".input-group").children("textarea");
+let textEleven = $("#textEleven").children(".row").children(".input-group").children("textarea");
+let textTwelve = $("#textTwelve").children(".row").children(".input-group").children("textarea");
+let textOne = $("#textOne").children(".row").children(".input-group").children("textarea");
+let textTwo = $("#textTwo").children(".row").children(".input-group").children("textarea");
+let textThree = $("#textThree").children(".row").children(".input-group").children("textarea");
+let textFour = $("#textFour").children(".row").children(".input-group").children("textarea");
+let textFive = $("#textFive").children(".row").children(".input-group").children("textarea");
