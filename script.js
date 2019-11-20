@@ -8,8 +8,8 @@ $(".saveBtn").on("click", saveContent);
 
 function saveContent() {
     let hour = $(this).parent().parent().parent().attr("id");
-    let task = $(this).siblings("textarea").val();
-    localStorage.setItem(hour, task);
+    let list = $(this).siblings("textarea").val();
+    localStorage.setItem(hour, list);
 };
 
 //Set up variables for text areas. This line is reaching down through the divs to access the child text areas inside. This will allow for attribute and text changes.
@@ -36,15 +36,15 @@ textFive.val(localStorage.getItem("5pm"));
 
 //This function changes the background color of the text areas depending on different parameters. If it is before the time on the time block, the background is green. If it is the same time as the time block, the background is red. If it is the time after the time block, the background is grey. 
 function backgroundChange() {
-    let i = 0;
+    let i = 2;
 
 //This if statement determines what time it is compared the variables set above. 
-    if (i < 0) {
-        textTwo.addCLass("future");
-    } else if (i = 0) {
+    if (i > 0) {
+        textTwo.addCLass("past");
+    } else if (i === 0) {
         textTwo.addClass("present");
     } else {
-        textTwo.addClass("past")
+        textTwo.addClass("future")
     }
 }
 
