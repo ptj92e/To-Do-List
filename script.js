@@ -36,16 +36,17 @@ textFive.val(localStorage.getItem("5pm"));
 
 //This function changes the background color of the text areas depending on different parameters. If it is before the time on the time block, the background is green. If it is the same time as the time block, the background is red. If it is the time after the time block, the background is grey. 
 function backgroundChange() {
-
+    let i = 0;
 
 //This if statement determines what time it is compared the variables set above. 
-    if (< 0) {
-        .addCLass("future");
-    } else if (= 0) {
-        .addClass("present");
+    if (i < 0) {
+        textTwo.addCLass("future");
+    } else if (i = 0) {
+        textTwo.addClass("present");
     } else {
-        .addClass("past")
+        textTwo.addClass("past")
     }
 }
 
+//This is calling the function to actually change the backgrounds based off of the time. 
 backgroundChange();
