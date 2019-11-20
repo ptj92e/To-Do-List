@@ -38,3 +38,9 @@ textThree.val(localStorage.getItem("3pm"));
 textFour.val(localStorage.getItem("4pm"));
 textFive.val(localStorage.getItem("5pm"));
 
+//This function changes the background color of the text areas depending on different parameters. If it is before the time on the time block, the background is green. If it is the same time as the time block, the background is red. If it is the time after the time block, the background is grey. 
+function backgroundChange() {
+        
+}
+
+backgroundChange();
