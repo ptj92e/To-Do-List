@@ -40,9 +40,7 @@ function backgroundChange() {
         } else {
             $(this).children(".row").children(".input-group").children("textarea").addClass("past");
         }
-
-    });  
-    console.log($(".time-block"));
+    });
 }
 // This is calling the function to actually change the backgrounds based off of the time. 
 backgroundChange();
