@@ -39,17 +39,19 @@ function backgroundChange() {
     let currentHour = moment().hour();
 
     $(".time-block").each(function() {
-        if ($("id") > currentHour) {
-            $("#textarea").addClass("future");
+        if (parseInt($(this).attr("id")) > currentHour) {
+            $(this).children(".row").children(".input-group").children("textarea").addClass("future");
             console.log("yes");
-        } else if ($("id") === currentHour) {
-            $("#textarea").addClass("present");
+        } else if (parseInt($(this).attr("id")) === currentHour) {
+            $(this).children(".row").children(".input-group").children("textarea").addClass("present");
             console.log("maybe");
         } else {
-            $("#textarea").addClass("past");
+            $(this).children(".row").children(".input-group").children("textarea").addClass("past");
             console.log("no");
         }
+
     });  
+    console.log($(".time-block"));
 }
 
 // This is calling the function to actually change the backgrounds based off of the time. 
