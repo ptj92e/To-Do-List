@@ -38,11 +38,11 @@ textFive.val(localStorage.getItem("17"));
 function backgroundChange() {
     let currentHour = moment().hour();
 
-    $("#time-block").each(function() {
+    $(".time-block").each(function() {
         if ($("id") > currentHour) {
             $("#textarea").addClass("future");
             console.log("yes");
-        } else if (parseInt($("id")) === currentHour) {
+        } else if ($("id") === currentHour) {
             $("#textarea").addClass("present");
             console.log("maybe");
         } else {
