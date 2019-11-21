@@ -54,4 +54,3 @@ function backgroundChange() {
 
 // This is calling the function to actually change the backgrounds based off of the time. 
 backgroundChange();
-
