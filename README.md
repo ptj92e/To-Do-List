@@ -1,10 +1,15 @@
 # To-Do-List
 
-In this assignment, I have been tasked with creating a dynamic to-do list that changes color based off what time it is. This assignment also made use of Moment.js which allowed for date changes and checking hours based off of military time. 
+This app is a dynamic to-do list that changes color based off what time it is. It makes use of Moment.js which allowed for date changes and checking hours as well as JQuery.
+
+![To Do List](/images/ToDoList.png)
+
+## Technologies:
+Moment.js, JQuery, CSS, HTML, JavaScript
 
 # Heading
 
-In this section of the page, there is the title of what the page is, as well as the current date. The date changes when a new day dawns and the page is refreshed. For this to work, I set up a variable which saved the current date and added that to the HTML of the heading. 
+In this section of the page, there is the title, as well as the current date. The date changes when a new day dawns and the page is refreshed. For this to work, I set up a variable which saved the current date and added it using JQuery. 
 
 # To Do List
 
